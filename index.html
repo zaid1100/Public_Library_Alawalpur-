@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Public Library Alawalpur</title>
+<style>
+* {margin:0; padding:0; box-sizing:border-box; font-family:"Segoe UI", sans-serif;}
+body {
+  background: url('https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=1350&q=80') no-repeat center center/cover;
+  color:#fff;
+  min-height:100vh;
+}
+header {text-align:center; padding:2rem 1rem; background: rgba(0,0,0,0.7);}
+header h1 {color:#f9d342; font-size:2.8rem; text-shadow: 2px 2px 6px #000;}
+header p {color:#ddd; font-size:1.2rem;}
+nav {
+  display:flex; justify-content:center; gap:2rem;
+  background:#fff; padding:1rem; border-radius:8px;
+  box-shadow:0 2px 10px rgba(0,0,0,0.3); margin:1rem auto;
+  max-width:1000px;
+}
+nav a {color:#000; font-weight:bold; text-decoration:none; padding:5px 12px; border-radius:5px; transition: all 0.3s ease;}
+nav a:hover {color:#ff9900; text-decoration:underline; box-shadow:0 0 12px #ff9900;}
+section {
+  max-width:1000px; margin:2rem auto; padding:2rem;
+  background: rgba(0,0,0,0.65); border-radius:12px;
+  box-shadow:0 4px 20px rgba(0,0,0,0.5);
+}
+h2 {color:#f9d342; text-align:center; margin-bottom:1.2rem; text-shadow:2px 2px 6px #000;}
+table {
+  width:100%; border-collapse: collapse; background: rgba(255,255,255,0.95);
+  color:#000; text-align:left; box-shadow:0 4px 20px rgba(0,0,0,0.3); transition: all 0.3s ease;
+}
+table th {background:#f9d342; color:#000; padding:0.8rem; font-size:1.1rem;}
+table td {padding:0.8rem; border-bottom:1px solid #ddd; font-size:1rem;}
+table tr:hover {background:#ffe066; transform: scale(1.01); transition: 0.3s ease;}
+input, textarea, button {
+  width:100%; padding:0.8rem; margin:0.5rem 0; border-radius:5px; border:none;
+}
+input, textarea {background:#fff; color:#000;}
+input:focus, textarea:focus {box-shadow:0 0 10px #f9d342;}
+button {
+  background:#f9d342; color:#000; font-weight:bold; cursor:pointer;
+  box-shadow:0 4px 10px rgba(0,0,0,0.3); transition:0.3s all ease;
+}
+button:hover {background:#ffcc00; box-shadow:0 0 15px #ffcc00; transform: scale(1.05);}
+footer {text-align:center; padding:1rem; background: rgba(0,0,0,0.7); color:#f9d342;}
+.info p {font-size:1.1rem; line-height:1.5rem;}
+</style>
+</head>
+<body>
+<header>
+<h1>Public Library Alawalpur</h1>
+<p>"Knowledge for Everyone" | Open: 7:00 AM - 12:00 PM</p>
+</header>
+<nav>
+<a href="#home">Home</a>
+<a href="#books">Book Search</a>
+<a href="#membership">Membership</a>
+<a href="#donation">Donation</a>
+<a href="#contact">Contact</a>
+</nav>
+<section id="home">
+<h2>Welcome to Public Library Alawalpur</h2>
+<p style="text-align:center;">Explore our complete SSC & HSSC collection, including Maths, Reasoning, English, Hindi, Statistics, GK, Haryana GK, and Current Affairs. Study, read, and grow with us!</p>
+</section>
+<section id="books">
+<h2>SSC & HSSC Completed Book Collection</h2>
+<table border="1">
+<tr>
+<th>Book Title</th><th>Category</th><th>Type</th><th>Availability</th><th>Notes</th>
+</tr>
+<tr><td>SSC Maths</td><td>SSC</td><td>Printed</td><td>Available</td><td>Full Book</td></tr>
+<tr><td>SSC Reasoning</td><td>SSC</td><td>Printed</td><td>Available</td><td>Full Book</td></tr>
+<tr><td>SSC English</td><td>SSC</td><td>Printed</td><td>Available</td><td>Full Book</td></tr>
+<tr><td>SSC Hindi</td><td>SSC</td><td>Printed</td><td>Available</td><td>Full Book</td></tr>
+<tr><td>SSC Statistics</td><td>SSC</td><td>Printed</td><td>Available</td><td>Full Book</td></tr>
+<tr><td>SSC General Knowledge</td><td>SSC</td><td>Printed</td><td>Available</td><td>Full Book</td></tr>
+<tr><td>SSC Haryana GK</td><td>SSC</td><td>Printed</td><td>Available</td><td>Full Book</td></tr>
+<tr><td>SSC Current Affairs</td><td>SSC</td><td>Printed</td><td>Available</td><td>Updated</td></tr>
+<tr><td>HSSC Maths</td><td>HSSC</td><td>Printed</td><td>Available</td><td>Full Book</td></tr>
+<tr><td>HSSC Reasoning</td><td>HSSC</td><td>Printed</td><td>Available</td><td>Full Book</td></tr>
+<tr><td>HSSC English</td><td>HSSC</td><td>Printed</td><td>Available</td><td>Full Book</td></tr>
+<tr><td>HSSC Hindi</td><td>HSSC</td><td>Printed</td><td>Available</td><td>Full Book</td></tr>
+<tr><td>HSSC Statistics</td><td>HSSC</td><td>Printed</td><td>Available</td><td>Full Book</td></tr>
+<tr><td>HSSC General Knowledge</td><td>HSSC</td><td>Printed</td><td>Available</td><td>Full Book</td></tr>
+<tr><td>HSSC Haryana GK</td><td>HSSC</td><td>Printed</td><td>Available</td><td>Full Book</td></tr>
+<tr><td>HSSC Current Affairs</td><td>HSSC</td><td>Printed</td><td>Available</td><td>Updated</td></tr>
+</table>
+</section>
+<section id="membership">
+<h2>Membership - ₹200 / Person</h2>
+<p style="text-align:center;">Limited Seats: 15</p>
+<div style="text-align:center; margin-bottom:10px;">
+  <span id="seatsInfo" style="font-size:1.2rem; color:#f9d342;">Available Seats: 15 | Filled Seats: 0</span>
+</div>
+<form id="membershipForm">
+<input type="text" placeholder="Full Name" required>
+<input type="email" placeholder="Email" required>
+<input type="tel" placeholder="Phone Number" required>
+<textarea placeholder="Address" rows="3" required></textarea>
+<button type="submit">Pay ₹200 & Join Library</button>
+</form>
+<p id="successMsg" style="text-align:center; color:#00ff00; font-weight:bold; margin-top:10px;"></p>
+<script>
+let totalSeats = 15;
+let filledSeats = 0;
+document.getElementById("membershipForm").addEventListener("submit", function(e){
+    e.preventDefault();
+    if(filledSeats < totalSeats){
+        filledSeats++;
+        document.getElementById("seatsInfo").innerText = 
+            `Available Seats: ${totalSeats - filledSeats} | Filled Seats: ${filledSeats}`;
+        document.getElementById("successMsg").innerText = "Membership Successful! Welcome 🎉";
+        this.reset();
+    } else {
+        document.getElementById("successMsg").innerText = "Sorry, all seats are full!";
+    }
+});
+</script>
+</section>
+<section id="donation">
+<h2>Donation</h2>
+<p style="text-align:center;">Support our library! Contact number: +91 98139 83986</p>
+<form>
+<input type="text" placeholder="Your Name" required>
+<input type="email" placeholder="Email" required>
+<input type="tel" placeholder="Phone Number" required>
+<input type="number" placeholder="Donation Amount (₹)" required>
+<textarea placeholder="Message (optional)" rows="3"></textarea>
+<button type="submit">Donate</button>
+</form>
+</section>
+<section id="contact">
+<h2>Contact Us</h2>
+<div class="info">
+<p><strong>Phone:</strong> +91 98139 83986</p>
+<p><strong>Timing:</strong> 7:00 AM - 12:00 PM</p>
+<p><strong>Address:</strong> Alawalpur, Haryana</p>
+</div>
+</section>
+<footer>
+<p>&copy; 2025 Public Library Alawalpur. All Rights Reserved.</p>
+</footer>
+</body>
+</html>
